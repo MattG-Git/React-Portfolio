@@ -2,37 +2,42 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Nav {
+  background:black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  height:75px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.badgeLogo {
+  height: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.badgedesc {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.badgecompdate {
+  font-size: 14px;
+}
+
+.skillslogo {
+  font-size: 5rem;
+}
+
+.intro {
+  background-color: #272822;
+  color: whitesmoke;
+}
+
+.projects {
+  background-color: #272822;
+  color: whitesmoke;
+}
+
+.form {
+  background-color:#272822;
+  color:whitesmoke
 }
