@@ -14,7 +14,7 @@ const Intro = () => {
                         <Button color="primary">Contact Me</Button>
                     </div>
                     <div className="col-3">
-                    {/*bootstrap image*/}
+                        <img src="./Assets/Images/Goldhammer_logo.svg" />
                     </div>
                 </div>
             </div>

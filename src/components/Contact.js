@@ -3,7 +3,7 @@ import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 const Contact = () => {
     return(
-        <Form className="form mt-5 p-5">
+        <Form action="mailto:matt.goldhammer@gmail.com" method="POST" name="EmailForm" className="form mt-5 p-5">
             <h2>Contact</h2>
             <div className="container">
                 <div className="row">
@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
                 </div>
             </div>
-            <Button>Submit</Button>
+            <Button className="mt-4">Submit</Button>
         </Form>
     );
 }
