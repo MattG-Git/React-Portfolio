@@ -6,22 +6,22 @@ const Projects = () => {
     const sites = SITES;
     const sitesList = sites.map(site => {
         return (
-            <div className="row">
-                <div className="col-md-5 mb-4">
+            <div className="row align-items-center" id="projects">
+                <div className="col-md-5 mb-5">
                     <img className="projectimg img-thumbnail" src={site.image}/>
                 </div>
                 <div className="col-md-7">
-                    <p>{site.name}</p>
-                    <p>{site.subtitle}</p>
+                    <p className="mb-0" style={{fontSize:"2.2rem", fontWeight:"100"}}>{site.name}</p>
+                    <p style={{fontWeight:"700", color:"gray", fontStyle:"italic"}}>{site.subtitle}</p>
                     <p>{site.description}</p>
-                    <Button outline color="primary"><a href={site.link}>View Project</a></Button>
+                    <Button className="mb-5" color="warning" size="lg" onClick={()=>window.open(site.link)}>Visit Project</Button>
                 </div>
             </div>
         );
     })
     return(
         <div className="container">
-            <h2>My Projects</h2>
+            <h2 className="mb-5">My Projects</h2>
             {sitesList}
         </div>
         

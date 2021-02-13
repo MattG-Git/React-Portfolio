@@ -1,15 +1,46 @@
-import React from 'react';
-import { Nav, Navbar, NavItem, NavLink } from 'reactstrap'
+import React, { useState } from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from 'reactstrap';
 
-const Navigation = () => {
+const Navigation = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    return(
-        <div>
+  const toggle = () => setIsOpen(!isOpen);
 
-                <img className="logo" src="./Assets/Images/Goldhammer_logo.svg" />
- 
-        </div>
-    );
+  const logo = "./Assets/Images/Goldhammer_logo.svg";
+
+  return (
+    <div className="container-fluid">
+      <Navbar style={{backgroundColor:"rgba(39,40,34,.9)"}} fixed="top" dark expand="md">
+      <NavbarBrand className="p-0">
+          <a href="#">
+          <img className="m-0" src={logo} style={{width:100}} />
+          </a>
+        </NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar>
+            <NavItem>
+              <NavLink style={{fontSize:"1.3rem"}}href="#skills">Skills</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink style={{fontSize:"1.3rem"}}href="#projects">Projects</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink style={{fontSize:"1.3rem"}}href="#certs">Certificates</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
 }
 
-export default Navigation; 
+export default Navigation;

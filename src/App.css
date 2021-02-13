@@ -1,9 +1,18 @@
+h2 {
+  font-size: 3rem !important; 
+  font-family: 'Righteous', cursive;
+}
+
+h1 {
+  font-size: 4rem !important;
+  font-family: 'Righteous', cursive;
+}
+
 .App {
   text-align: center;
 }
-
-.Nav {
-  background:black;
+.footericon:hover { 
+  color: lightgray; 
 }
 
 .logo {
@@ -37,12 +46,10 @@
   color: whitesmoke;
 }
 
-.form {
+.footer {
   background-color:#272822;
-  color:whitesmoke
 }
 
 .socialicon {
-  color:#272822;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }

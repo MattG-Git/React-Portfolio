@@ -11,7 +11,7 @@ const Skills = () => {
         );
     })
     return(
-        <div className="container skillslogo">
+        <div className="container skillslogo skills mb-5" id="skills">
                 <h2>My Skills</h2>
             <div className="row">
                 {languageList}

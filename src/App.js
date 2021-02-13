@@ -5,15 +5,12 @@ import Navigation from './components/Navigation';
 import Skills from './components/Skills';
 import Certs from './components/Certs';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <div className="nav mb-5">
         <Navigation />
-      </div>
       <div className="intro mb-5 p-5">
         <Intro />
       </div>
@@ -26,10 +23,7 @@ function App() {
       <div>
         <Certs />
       </div>
-      <div>
-        <Contact />
-      </div>
-      <div>
+      <div className="footer">
         <Footer />
       </div>
     </div>

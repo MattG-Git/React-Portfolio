@@ -15,9 +15,9 @@ const Certs = () => {
 
     return(
         <div>
-            <h2>My Certificates</h2>
-            <p>Nucamp Full-Stack Development Bootcamp Graduate | January 2021</p>
-            <div className="container">
+            <h2 className="mb-2">My Certificates</h2>
+            <p className="mb-3">Nucamp Full-Stack Development Bootcamp Graduate | January 2021</p>
+            <div className="container" id="certs">
                 <div className="row">
                     {badgeList}
                 </div>

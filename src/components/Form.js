@@ -1,13 +1,13 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-const Contact = () => {
+const Form = () => {
     return(
-        <Form action="mailto:matt.goldhammer@gmail.com" method="POST" name="EmailForm" className="form mt-5 p-5">
-            <h2>Contact</h2>
+         <Form id="contact" action="mailto:matt.goldhammer@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm" className="form mt-5 p-5">
+            <h2 className="mb5">Contact</h2>
             <div className="container">
                 <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6"> 
                     <img src="./Assets/Images/Goldhammer_logo.svg" />
                 </div>
                 <div className="col-md-6">
@@ -26,9 +26,9 @@ const Contact = () => {
                 </div>
                 </div>
             </div>
-            <Button className="mt-4">Submit</Button>
+            <Button color="warning" type="submit" size="lg" className="mt-4">Submit</Button>
         </Form>
     );
 }
 
-export default Contact;
+export default Form;

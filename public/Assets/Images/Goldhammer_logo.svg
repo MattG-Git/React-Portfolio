@@ -17,12 +17,24 @@
         <g transform="matrix(0.669268,0,0,0.649439,103.759,87.7718)">
             <ellipse cx="398.973" cy="306.277" rx="220.311" ry="218.57" style="fill:rgb(156,156,156);fill-opacity:0.26;"/>
         </g>
-        <g transform="matrix(0.88118,-1.08179e-07,-3.08705e-07,0.882326,193.802,85.4277)">
+        <g transform="matrix(0.911439,-0.0503528,0.0504178,0.912624,189.881,102.938)">
             <g>
                 <g>
                     <use id="_Image2_" serif:id="_Image2" xlink:href="#_Image1" x="0" y="0" width="439px" height="399px"/>
                 </g>
             </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-21.9551,49.0785)">
+            <text x="433.019px" y="339.978px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:96px;">G</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-32.8942,49.0785)">
+            <text x="433.019px" y="339.978px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:96px;fill-opacity:0.19;">G</text>
+        </g>
+        <g transform="matrix(1,0,0,1,22.1706,23.0348)">
+            <text x="228.677px" y="223.429px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:96px;">M</text>
+        </g>
+        <g transform="matrix(1,0,0,1,12.9316,23.0348)">
+            <text x="228.677px" y="223.429px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:96px;fill-opacity:0.2;">M</text>
         </g>
     </g>
     <defs>
