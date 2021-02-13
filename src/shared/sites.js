@@ -29,6 +29,6 @@ export const SITES = [
         subtitle: "Nodejs | Express | MongoDB | Mongoose",
         description: "A backend application featuring app logic, database operations, user authentication, and a server. Coded with Nodejs, MongoDB, Mongoose, and Express. ",
         link:"https://github.com/MattG-Git/nucampsiteServer",
-        image: "./Assets/Images/mern_logo.png"
+        image: "./Assets/Images/Mern_logo.png"
     }
 ];

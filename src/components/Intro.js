@@ -16,7 +16,7 @@ const Intro = () => {
                        { /*<Button onClick={() => {window.location.href="#contact"}} className="m-3" color="warning" size="lg">Contact Me</Button>*/ }
                     </div>
                     <div className="col-md-5 order-sm-first order-first mb-3">
-                        <img className="img-thumbnail" style={{maxHeight:"375px", borderRadius:"50%"}}src="./Assets/Images/peru.jpg" />
+                        <img className="img-thumbnail" style={{maxHeight:"375px", borderRadius:"50%"}}src="./Assets/Images/Peru.jpg" />
                     </div>
                 </div>
             </div>
