@@ -24,17 +24,17 @@ const Navigation = (props) => {
           <img className="m-0" src={logo} style={{width:100}} />
           </a>
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler className="toggler" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink style={{fontSize:"1.3rem"}}href="#skills">Skills</NavLink>
+              <NavLink className="navlink" style={{fontSize:"1.3rem"}}href="#skills">Skills</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink style={{fontSize:"1.3rem"}}href="#projects">Projects</NavLink>
+              <NavLink className="navlink" style={{fontSize:"1.3rem"}}href="#projects">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink style={{fontSize:"1.3rem"}}href="#certs">Certificates</NavLink>
+              <NavLink className="navlink" style={{fontSize:"1.3rem"}}href="#certs">Certificates</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

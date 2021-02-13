@@ -11,7 +11,7 @@ const Intro = () => {
                         <p className="mb-0" style={{fontSize:"2.2rem", fontWeight:"100"}}>Full Stack Developer</p>
                         <a style={{color:"gray"}} href='https://github.com/MattG-Git'><i className="pr-4 lni footericon lni-github"></i></a>
                         <a style={{color:"gray"}} href='https://www.linkedin.com/in/matthew-goldhammer-80aa4797/'><i className="mb-4 lni footericon lni-linkedin-original"></i></a>
-                        <p>Nice to meet you! When it comes to my work, tasteful colors, beautiful visuals, minimalist principles, and a cheeky personality are the ingredients I use to create unique and memorable design solutions. Check out what I can offer below and be sure to reach out if you'd like to work together.</p>
+                        <p>It's great to meet you! I am a full stack developer in Las Vegas, Nevada looking to kick-off my web development career with the right team. In January of 2021, I completed an intensive 6-month code bootcamp that provided me a strong foundation in React, React Native, Nodejs, Express, and MongoDB. Let's connect and build awesome code! </p>
                         <Button onClick={() => {window.location.href="#projects"}} className="mt-3" size="lg" color="warning">Projects</Button>
                        { /*<Button onClick={() => {window.location.href="#contact"}} className="m-3" color="warning" size="lg">Contact Me</Button>*/ }
                     </div>

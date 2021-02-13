@@ -6,17 +6,31 @@ h2 {
 h1 {
   font-size: 4rem !important;
   font-family: 'Righteous', cursive;
+  color: #FFC107;
+}
+
+.navlink:hover {
+  color: #FFC107 !important;
+}
+.toggler:hover {
+  background-color: #FFC107 !important;
+}
+
+h1:hover {
+  color: whitesmoke;
 }
 
 .App {
   text-align: center;
 }
-.footericon:hover { 
-  color: lightgray; 
-}
+
 
 .logo {
   height:75px;
+}
+
+.projectimg:hover {
+  background-color:#ffc107;
 }
 
 .badgeLogo {
@@ -52,4 +66,8 @@ h1 {
 
 .socialicon {
   font-size: 2.5rem;
+}
+
+.footericon:hover { 
+  color: #FFC107; 
 }
