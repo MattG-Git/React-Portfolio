@@ -25,6 +25,14 @@ export const SITES = [
     },
     {
         id: 3,
+        name: "React Meal Planner",
+        subtitle: "React | React Router | reactstrap",
+        description: "A no-thrills meal planning app that showcases the use of React state hooks. Users can plan their meals for the whole week. Simply choose the day and protein, receive a list of relevant options from which to choose from, and add to your calendar.",
+        link:"http://www.mealplanner.mattgoldhammer.com",
+        image: "./Assets/Images/mealplanner.png"
+    },
+    {
+        id: 4,
         name: "NuCamp Database & Server",
         subtitle: "Nodejs | Express | MongoDB | Mongoose",
         description: "A backend application featuring app logic, database operations, user authentication, and a server. Coded with Nodejs, MongoDB, Mongoose, and Express. ",
