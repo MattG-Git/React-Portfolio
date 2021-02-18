@@ -20,14 +20,14 @@ export const SITES = [
         name: "NuCamp Campsites",
         subtitle: "React | Redux | React Router | reactstrap | React Animations ",
         description:"This was one of my capstone projects during my code bootcamp. It is a fictional campsite booking application featuring functional and visual components, forms, animations and a clean UI/UX written using REACT, reactstrap, and Redux. ",
-        link: "http://www.nucampsite.mattgoldhammer.com",
+        link: "https://github.com/MattG-Git/nucampsite-React",
         image: "./Assets/Images/nucamp_react.png"
     },
     {
         id: 3,
         name: "React Meal Planner",
         subtitle: "React | React Router | reactstrap",
-        description: "A no-thrills meal planning app that showcases the use of React state hooks. Users can plan their meals for the whole week. Simply choose the day and protein, receive a list of relevant options from which to choose from, and add to your calendar.",
+        description: "A minimalistically designed meal planning app that showcases the use of React state hooks. Users can plan their meals for the whole week. Simply choose the day and protein, receive a list of relevant options from which to choose from, and add to your calendar.",
         link:"http://www.mealplanner.mattgoldhammer.com",
         image: "./Assets/Images/mealplanner.png"
     },
